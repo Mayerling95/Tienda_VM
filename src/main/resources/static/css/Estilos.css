@@ -1,0 +1,86 @@
+/*EStilos semana 2*/
+
+/*id...#xxxx */
+
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: violet;
+    color: white;
+}
+#encabezado h1{
+    display: inline;
+}
+#menu{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: gold;
+    color: white;
+}
+#menu a:hover{
+    background-color: lightpink;
+    color: black;
+}
+#barralateral {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 20%;
+    background-color: #f7345b;
+    padding: 10px;
+}
+
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: #ab6a6e;
+    padding: 10px;
+    overflow: auto;
+}
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: #ab6a6e;
+    padding: 10px;
+    overflow: auto;
+}
+
+#encabezadoTabla {
+
+    background-color: #cbcfb4;
+    color: black;
+}
+
+#tablaresumen tr:nth-child(odd){
+    background-color: #cbcfb4;
+    color: black;
+}
+
+#tablaresumen tr:nth-child(even){
+    background-color: #f7345b;
+    color: black;
+}
+
+#piepagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #cbcfb4;
+    text-align: center;
+}
+
