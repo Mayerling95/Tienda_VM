@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- actualizar etiquetas para practicar etiquetas de meta -->
+<html lang="es">
+    <head>
+        <title>Tienda en Linea</title>
+        <meta charset="UTF-8">
+        <meta name="drescription" content="Esta pagina contiene etiquetas del tipo html5 y luego enlaces o definicion de estilos css3">
+        <meta name="keywords" content="html5, css3, web, fidelitas">
+        <link href="css/Estilos.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/Menu.css" type="text/css"/>
+
+
+    </head>
+    <body>
+        <header class="header"> <!-- Etiqueta para el browser informacion de un encabezado-->
+        <nav class="nav"> <!-- Etiqueta para ilustrar al browser barra de navegacion (menu) -->
+            <a href="index.html" class="logo nav-link">TechShop</a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link " href="Ejemplo9.html">&LeftTriangleBar;</a></li>  
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link " href="Ejemplo2.html">&RightTriangleBar;</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link " href="Formularios.html">Audios</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link " href="Videos.html">Videos</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link " href="Iframe.html">Iframe</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link " href="Formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <aside id="barralateral"> <!-- Etiqueta para indicar una barra lateral , puede ser izda o derecha y pueden ser varias -->
+            <h2>Productos mas vendidos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum lectus tempor, et potenti per platea posuere pretium ante habitasse id, aptent suscipit fusce duis curae nam morbi at suspendisse. Vulputate porta tristique a aptent ligula varius etiam phasellus duis ac mus in vivamus, felis proin magnis enim cum placerat accumsan molestie arcu habitasse orci semper. Litora nascetur aptent penatibus convallis dictumst, felis cras volutpat velit enim, luctus accumsan cursus fusce orci, vehicula mi leo ante.</p>
+        </aside>
+
+        <section id="contenido">
+
+            <h2>Ejemplo de videos</h2>
+            <header><h3>Torpedo</h3></header>
+            <figure>
+                <video width="320" height="240" controls autoplay muted>
+                    <source src="Videos/torpedo.mp4" type="video/mp4">
+                    Su explorador no soporta el formato del video<code>video</code> tag.
+                </video>
+                <figure>Realizada em 2021</figure>
+            </figure>
+
+            <h2>Articulos principales</h2>
+            <article>
+                <header>Tela navideña 5000</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, conubia hendrerit ac feugiat justo vivamus suscipit, sed nunc sapien molestie porta tempor. Cursus eu nisi per ligula placerat congue nec justo venenatis, primis class faucibus metus nisl gravida at ridiculus, sagittis mauris litora pellentesque magnis varius interdum purus dapibus, laoreet imperdiet nunc suspendisse commodo sem augue. Mus id suspendisse aenean eros non aptent lacus maecenas etiam class, fames sociis scelerisque nibh conubia facilisi laoreet lectus in pulvinar et, lobortis donec morbi ridiculus praesent pretium elementum ante erat.</p>
+                <footer>Agregar a carrito</footer>
+                <figure>
+                    <img src="imagenes/tela-navidena.jpg" alt="Tela Navideña"/>
+                </figure>
+            </article>
+
+            <article> 
+                <header>Tela lisa 8000</header>
+                <p>Las telas son<cite>de alta calidad</cite>ursus nec placerat rhoncus egestas nulla neque phasellus class magnis penatibus lacus, semper pretium quis morbi ornare faucibus nisl non libero dictumst. Diam dictumst dignissim massa augue etiam ridiculus semper fringilla sodales, urna duis nullam luctus non nam dictum id erat, euismod ad egestas facilisis vitae morbi eu consequat. Tempus pellentesque mauris blandit pharetra massa semper habitasse, nisl imperdiet cubilia cras condimentum mattis elementum litora, sapien quisque libero leo magna praesent. Volutpat posuere eros nulla euismod nisi primis magna a facilisis neque odio auctor aptent integer, hac curabitur tortor luctus potenti natoque congue nullam dis venenatis quisque risus metus magnis, sapien sollicitudin habitasse ut aliquet turpis semper aenean laoreet dapibus donec rutrum dictum.</p>
+                <footer>Agregar a carrito</footer>
+                <figure>
+                    <img src="imagenes/tela_lisa.jpg" alt="Tela Lisa"/>
+                </figure>
+            </article>
+
+            <article>
+                <header>Tela estampado 8000</header>
+                <p>Fusce fermentum taciti purus pretium ornare non congue nascetur senectus, habitasse lectus etiam lacus justo aenean accumsan. Ac natoque ridiculus proin integer augue habitant varius dui aliquet, praesent per erat luctus eget lectus mattis magnis, platea netus magna quam mauris non justo viverra. Etiam dapibus lacinia metus rutrum tincidunt fermentum eros cubilia tempus aliquet facilisi vel integer, per convallis aenean sed orci lobortis venenatis id quis ultrices dictumst.</p>
+                <footer>Agregar a carrito</footer>
+                <figure>
+                    <img src="imagenes/tela_estampado.jpg" alt="Tela Estampada"/>
+                    <figcaption>Mas vendido</figcaption>
+                </figure>
+            </article>   
+            <article>
+                <header>Resumen de linieas generales</header>
+                <p> habitasse lectus etiam lacus justo aenean accumsan. Ac natoque ridiculus proin integer augue habitant varius dui aliquet, praesent per erat luctus eget lectus mattis magnis, platea netus magna quam mauris non justo viverra. Etiam dapibus lacinia metus rutrum tincidunt fermentum eros cubilia tempus aliquet facilisi vel integer, per convallis aenean sed orci lobortis venenatis id quis ultrices dictumst.</p>
+                <table border="0">
+                    <thead>
+                        <tr id="encabezadoTabla">
+                            <th>Codigo</th>
+                            <th>Detalle</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaresumen">
+                        <tr>
+                            <td>1</td>
+                            <td>Fusce fermentum taciti purus pretium</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>ornare non congue nascetur senectus</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Fusce fermentum taciti purus pretium</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>ornare non congue nascetur senectus</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Fusce fermentum taciti purus pretium</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>ornare non congue nascetur senectus</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </article>
+        </section>
+
+        <footer id="piepagina">Derechos reservados &COPY; 2022<address style="display:">Tel 2234 5686</address></footer>
+    </body>
+</html>

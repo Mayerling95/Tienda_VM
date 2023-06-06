@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- actualizar etiquetas para practicar etiquetas de meta -->
+<html lang="es">
+    <head>
+        <title>Tienda en Linea</title>
+        <meta charset="UTF-8">
+        <meta name="drescription" content="Esta pagina contiene etiquetas del tipo html5 y luego enlaces o definicion de estilos css3">
+        <meta name="keywords" content="html5, css3, web, fidelitas">
+        <link href="css/Estilos.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+
+        <header id="encabezado"> <!-- Etiqueta para el browser informacion de un encabezado-->
+            <h1>TechShop</h1> 
+        </header>
+
+        <nav id="menu"> <!-- Etiqueta para ilustrar al browser barra de navegacion (menu) -->
+            <a href="Ejemplo9.html">Black</a>|
+            <a href="index.html">Home</a>|
+            <a href="Ejemplo2.html">Next</a><br>
+        </nav>
+
+        <aside id="barralateral"> <!-- Etiqueta para indicar una barra lateral , puede ser izda o derecha y pueden ser varias -->
+            <h2>Productos mas vendidos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum lectus tempor, et potenti per platea posuere pretium ante habitasse id, aptent suscipit fusce duis curae nam morbi at suspendisse. Vulputate porta tristique a aptent ligula varius etiam phasellus duis ac mus in vivamus, felis proin magnis enim cum placerat accumsan molestie arcu habitasse orci semper. Litora nascetur aptent penatibus convallis dictumst, felis cras volutpat velit enim, luctus accumsan cursus fusce orci, vehicula mi leo ante.</p>
+        </aside>
+
+        <section id="contenido">
+            <h2>Ejemplo de iframe</h2>
+            <article>
+                <header>Video de youtube</header>       
+                <iframe width="500" height="280" 
+                        src="https://www.youtube.com/embed/JVfZAUw_Ezc" 
+                        title="La Sirenita Disney Oficial" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>  
+                </iframe>
+                <footer>La sirenita</footer>
+            </article>
+            
+            <article>
+                <header><h3>Mitos y leyendas de sirenas</h3></header>
+                <iframe src="https://mitosyleyendascr.com/mitologia-griega/las-sirenas/" width="700" height="400">
+
+                </iframe>  
+                <footer>Mitos y leyendas/footer>
+            </article>
+            
+            <article>
+                <header><h3>Ubicaciones de leyendas</h3></header> 
+               <iframe 
+                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60561076.77618467!2d35.16294471005718!3d-22.112444767036653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18174db2727f6a1f%3A0xead4bf5063a99637!2zT2PDqWFubyDDjW5kaWNv!5e0!3m2!1ses-419!2scr!4v1685767491260!5m2!1ses-419!2scr" 
+                   width="600" 
+                   height="450" 
+                   style="border:0;" 
+                   allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">      
+               </iframe>  
+                <footer>La ubicacion del stem center en Google maps</footer>
+            </article>
+            
+        </section>
+
+        <footer id="piepagina">Derechos reservados &COPY; 2022<address style="display:">Tel 2234 5686</address></footer>
+    </body>
+</html>
